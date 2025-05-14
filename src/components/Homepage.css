@@ -1,0 +1,184 @@
+.mainSectionStyles {
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: #FDD887;
+}
+
+.boxStyles {
+    display: flex;
+    color: #343435;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FDF9F0;
+    box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 0px 150px 0px 150px;
+    max-width: 100%;
+}
+
+.hero-container {
+    display: flex;
+    height: 80vh;
+  }
+  
+  .hero-left {
+    background-image: url('../images/yellowBackground.jpg');
+    background-size: cover;         /* Make sure the image covers the entire section */
+    background-position: center;    /* Center the image */
+    background-repeat: no-repeat;   /* Prevent image repetition */
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .hero-left h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+    color: #111;
+  }
+  
+  .hero-img img {
+    max-width: auto;
+    height: 100%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .aboutContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: hidden; /* Prevent layout shift */
+    min-height: 350px; /* Reserve space for tallest hover box */
+    gap: 20px;
+  }
+
+  .aboutHTC{
+    font-size: 50px;
+    color: #343435;
+    background-color: #FDD887;
+    box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding: 15px;
+    width: 20%;
+  }
+  .aboutHTC:hover{
+    background-color: #ffd069;
+  }
+  
+  .aboutInfoBox {
+    color: #343435;
+    font-size: 18px;
+    background-color: #FDD887;
+    box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding: 30px;
+    width: 33%;
+    transition: transform 0.3s ease, padding 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  .aboutInfoBox:hover {
+    transform: scale(1.05); /* Grows visually without pushing layout */
+  }
+
+
+  .joinButton {
+    background-color: #5C5C5C; 
+    color: #FDD887;        
+    padding: 10px 20px;
+    border-radius: 6px; 
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .joinButton:hover {
+    background-color: #343435; 
+    font-size: 17px;
+  }
+
+  .missionTable h1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .missionBox {
+    color: white;
+    font-size: 22px;
+    background-color: #5C5C5C;
+    border-radius: 5px;
+    border: solid 3px #FDD887;
+    margin: 5px;
+    padding: 20px;
+    height: 100%;
+  }
+
+  .missionTable table {
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+  }
+  
+  .missionTable td {
+    vertical-align: top;
+    height: 100%;
+  }
+
+  .missionTable {
+    margin: 0px;
+  }
+  
+  
+  .partnerImages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .partnerImages img{
+    padding: 20px;
+    height: 100px;
+    width: auto;
+  }
+
+  .aboutBackground {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-image: url('../images/uniBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 20px; /* Add padding if needed */
+    z-index: 0;
+  }
+  
+  .aboutBackground::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(50, 50, 50, 0.65); /* Grey with 50% transparency */
+    z-index: 1;
+  }
+  
+  /* Make sure the content inside sits above the overlay */
+  .aboutBackground > * {
+    position: relative;
+    z-index: 2;
+  }
+  
+  

@@ -1,0 +1,51 @@
+footer {
+    background-color: white;
+    color: #343435;
+    padding: 20px 50px;
+    border-top: solid 3px #343435;
+    margin-top: 5px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.socials {
+    display: flex;
+    gap: 25px;
+}
+
+.socials img {
+    height: 75px;
+    width: auto;
+    transition: transform 0.2s ease;
+}
+
+.socials img:hover {
+    transform: scale(1.1);
+}
+
+.join-button {
+    background-color: #FDD887;
+    color: #343435;
+    border: none;
+    height: 50px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 18px;
+    transition: transform 0.2s ease;
+}
+
+.join-button:hover {
+    transform: scale(1.05);
+}
+
+footer img {
+    height: 150px;
+}
+
+footer p {
+    font-size: 19px;
+    margin: 0;
+}
