@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/HTC-Landing-Page/static/css/main.0d2a69ba.css",
+    "main.js": "/HTC-Landing-Page/static/js/main.d5b27837.js",
+    "static/js/453.7ee4257d.chunk.js": "/HTC-Landing-Page/static/js/453.7ee4257d.chunk.js",
+    "static/media/caseCompetition.jpg": "/HTC-Landing-Page/static/media/caseCompetition.b3063fc51e4bb80a5e58.jpg",
+    "static/media/uniBackground.jpg": "/HTC-Landing-Page/static/media/uniBackground.5ba6a2fea022208d21f4.jpg",
+    "static/media/instagram.webp": "/HTC-Landing-Page/static/media/instagram.ef207ba5fdd9f13cf80c.webp",
+    "static/media/caseComp.jpg": "/HTC-Landing-Page/static/media/caseComp.b7dece2c00e8cf71652c.jpg",
+    "static/media/haskayne.jpg": "/HTC-Landing-Page/static/media/haskayne.6554a97991866f790e64.jpg",
+    "static/media/yellowBackground.jpg": "/HTC-Landing-Page/static/media/yellowBackground.f8060923cec15d50ecbd.jpg",
+    "static/media/industryNight.jpg": "/HTC-Landing-Page/static/media/industryNight.8337db1047b955d7b7bc.jpg",
+    "static/media/stemNight.jpg": "/HTC-Landing-Page/static/media/stemNight.7ce2dfca0128730762be.jpg",
+    "static/media/aws.png": "/HTC-Landing-Page/static/media/aws.f1ffa65d14b176809c21.png",
+    "static/media/ey.png": "/HTC-Landing-Page/static/media/ey.c85104ff79f78279deb4.png",
+    "static/media/linkedin.svg": "/HTC-Landing-Page/static/media/linkedin.c5f7c80a4f858f8356d49cb775eb88ae.svg",
+    "index.html": "/HTC-Landing-Page/index.html",
+    "main.0d2a69ba.css.map": "/HTC-Landing-Page/static/css/main.0d2a69ba.css.map",
+    "main.d5b27837.js.map": "/HTC-Landing-Page/static/js/main.d5b27837.js.map",
+    "453.7ee4257d.chunk.js.map": "/HTC-Landing-Page/static/js/453.7ee4257d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d2a69ba.css",
+    "static/js/main.d5b27837.js"
+  ]
+}
