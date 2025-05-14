@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HTC-Landing-Page/static/css/main.0d2a69ba.css",
-    "main.js": "/HTC-Landing-Page/static/js/main.d5b27837.js",
+    "main.js": "/HTC-Landing-Page/static/js/main.d1728baf.js",
     "static/js/453.7ee4257d.chunk.js": "/HTC-Landing-Page/static/js/453.7ee4257d.chunk.js",
     "static/media/caseCompetition.jpg": "/HTC-Landing-Page/static/media/caseCompetition.b3063fc51e4bb80a5e58.jpg",
     "static/media/uniBackground.jpg": "/HTC-Landing-Page/static/media/uniBackground.5ba6a2fea022208d21f4.jpg",
@@ -16,11 +16,11 @@
     "static/media/linkedin.svg": "/HTC-Landing-Page/static/media/linkedin.c5f7c80a4f858f8356d49cb775eb88ae.svg",
     "index.html": "/HTC-Landing-Page/index.html",
     "main.0d2a69ba.css.map": "/HTC-Landing-Page/static/css/main.0d2a69ba.css.map",
-    "main.d5b27837.js.map": "/HTC-Landing-Page/static/js/main.d5b27837.js.map",
+    "main.d1728baf.js.map": "/HTC-Landing-Page/static/js/main.d1728baf.js.map",
     "453.7ee4257d.chunk.js.map": "/HTC-Landing-Page/static/js/453.7ee4257d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d2a69ba.css",
-    "static/js/main.d5b27837.js"
+    "static/js/main.d1728baf.js"
   ]
 }
