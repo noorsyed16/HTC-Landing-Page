@@ -1,28 +1,24 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Homepage from './components/Homepage';
 import About from './components/About';
 import Events from './components/Events';
 import OurTeam from './components/OurTeam';
 
-
-
 function App() {
   return (
     <div>
-        <BrowserRouter>
+      <HashRouter>
         <Routes>
-            <Route path ="/" element={<Homepage />} />
-            <Route path ="/About" element={<About />} />
-            <Route path ="/Events" element={<Events />} />
-            <Route path ="/OurTeam" element={<OurTeam />} />
+          <Route path="/" element={<Homepage />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Events" element={<Events />} />
+          <Route path="/OurTeam" element={<OurTeam />} />
         </Routes>
-        </BrowserRouter>
-        
-      </div>
+      </HashRouter>
+    </div>
   );
 }
 
 export default App;
-
